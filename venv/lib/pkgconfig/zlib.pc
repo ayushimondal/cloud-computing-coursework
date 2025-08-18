@@ -1,0 +1,13 @@
+prefix=/Users/ayushimondal/Documents/cloud_3/venv
+exec_prefix=/Users/ayushimondal/Documents/cloud_3/venv
+libdir=/Users/ayushimondal/Documents/cloud_3/venv/lib
+sharedlibdir=/Users/ayushimondal/Documents/cloud_3/venv/lib
+includedir=/Users/ayushimondal/Documents/cloud_3/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
